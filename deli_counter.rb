@@ -21,5 +21,6 @@ end
 
 def now_serving(katz_deli)
   until katz_deli.count == 0 
+    if katz_deli_deli.count > 0 
   
 end
