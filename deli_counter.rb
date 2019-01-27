@@ -10,7 +10,7 @@ def line(katz_deli)
       listnumber_name = "#{index + 1}. #{name}"
       new_array << listnumber_name
     end
-    puts "The line is currently: #{new_array.join}"
+    puts "The line is currently: #{new_array.join("")}"
   end
 end
 
