@@ -17,6 +17,6 @@ end
 def take_a_number(katz_deli, name)
   i = 1 
   katz_deli << name
-  puts "Welcome, #{name}. You are number #{i} in line."
+  puts "Welcome, #{name}. You are number #{katz_deli.count + i} in line."
   i+= 1 
 end
